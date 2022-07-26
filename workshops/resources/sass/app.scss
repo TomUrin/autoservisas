@@ -1,0 +1,47 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.actions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-image {
+    background-image: url(../../public/images/workshop.png);
+    }
+
+    .createServices   {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mx-auto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    
+   .datePicker {
+       max-width: 250px;
+       
+   }
+
+   .timePicker {
+    max-width: 250px;
+    
+}
+
+.photo-box {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+}
